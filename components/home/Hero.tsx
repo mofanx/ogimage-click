@@ -1,4 +1,4 @@
-import { Spacer } from "@nextui-org/react"
+import { Spacer } from "@heroui/react"
 
 import { siteConfig } from "@/config/site"
 import { ogs, xHeaders } from "@/components/home/Images"

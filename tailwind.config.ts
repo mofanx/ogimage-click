@@ -2,7 +2,7 @@ import typography from "@tailwindcss/typography";
 import type { Config } from "tailwindcss";
 import tailwindCssAnimate from "tailwindcss-animate";
 import { fontFamily } from "tailwindcss/defaultTheme";
-const { nextui } = require("@nextui-org/react");
+const { heroui } = require("@heroui/react");
 
 const config: Config = {
   darkMode: ["class"],
@@ -11,7 +11,7 @@ const config: Config = {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     container: {
@@ -82,7 +82,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [nextui(), tailwindCssAnimate, typography],
+  plugins: [heroui(), tailwindCssAnimate, typography],
 }
 
 export default config
